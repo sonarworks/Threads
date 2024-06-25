@@ -16,6 +16,7 @@
 #include <utility>
 #include <future>
 #include <queue>
+#include <functional>
 
 namespace gusc
 {

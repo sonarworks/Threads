@@ -144,6 +144,7 @@ private:
     std::atomic_bool isStarted { false };
     std::string threadPoolName { "gust::Threads::ThreadPool" };
     ThreadProcedure threadProcedure;
+public:
     Thread::Priority threadPriority { Thread::Priority::Default };
 };
 
